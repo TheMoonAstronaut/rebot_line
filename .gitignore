@@ -1,0 +1,22 @@
+# Local builds, test executables, snapshots and USB session logs
+**/.build/
+/work/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor / operating-system files
+.vscode/
+.idea/
+.DS_Store
+*~
+core
+core.*
